@@ -59,6 +59,24 @@ form .form-control small{
     left: 0px;
 }
 
+
+
+form .form-control.error input{
+    border: 2px solid red;
+}
+
+/* form .form-control.error input:focus{
+    border: 2px solid red;
+} */
+
+form .form-control.success input{
+    border: 2px solid rgb(110, 228, 110);
+}
+
+form .form-control.error small{
+    color: red;
+}
+
 form button{
     width: 100%;
     padding: 10px;
@@ -67,4 +85,6 @@ form button{
     border: none;
     color: #fff;
     margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
