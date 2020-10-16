@@ -36,7 +36,8 @@ form h2{
 }
 
 form .form-control{
-    padding: 10px 0px;
+    padding: 10px 0px 20px 0px;
+    position: relative;
 }
 
 form .form-control label{
@@ -49,7 +50,13 @@ form .form-control input{
     padding: 10px;
     border: 2px solid #F0F0F0;
     width: 100%;
-    border: none;
+   
+}
+
+form .form-control small{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 form button{
